@@ -99,8 +99,6 @@ namespace Bot.Commands
                 await connectedChannel.DisconnectAsync();
                 return;
             }
-           
-
             do
             {
                 await Task.Delay(1000);
