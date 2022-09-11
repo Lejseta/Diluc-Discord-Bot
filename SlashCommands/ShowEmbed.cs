@@ -31,7 +31,6 @@ namespace Bot.SlashCommands
                 await interaction.RespondAsync(embed: embed.Build(), ephemeral: false);
             }
         }
-
         protected override SlashCommandBuilder GetCommand()
         {
             SlashCommandBuilder builder = new SlashCommandBuilder()
