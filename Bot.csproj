@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BlackJack.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Extended.Core" Version="2.0.2" />
+    <PackageReference Include="Discord.Net" Version="3.7.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="NAudio" Version="2.1.0" />
+    <PackageReference Include="NAudio.Wasapi" Version="2.1.0" />
+    <PackageReference Include="System.Speech" Version="6.0.0" />
+    <PackageReference Include="VoiceNET.Library" Version="1.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Discord.Extended">
+      <HintPath>bin\Debug\netcoreapp3.1\Disxord.Extended.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
