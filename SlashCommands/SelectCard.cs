@@ -25,9 +25,9 @@ namespace Bot.SlashCommands
 
             ComponentBuilder component = new ComponentBuilder();
 
-            //Ilość odpowiedzi
+            //Answers quantity
             for (int x = 0; x < CardGameController.Instance.CurrentGame.AnswersCount; x++) {
-                //Wszystkie karty
+                //All Cards
                 SelectMenuBuilder builder = new SelectMenuBuilder()
                     .WithCustomId("selectmenu" + x)
                     .WithMaxValues(1)
