@@ -22,7 +22,7 @@ namespace Bot.SlashCommands
 
             if (CardGameController.Instance.UsersCount < 2)
             {
-                await interaction.RespondAsync("To start the game min. 2user must join.");
+                await interaction.RespondAsync("To start the game min. 2 users must join.");
                 return;
             }
 
